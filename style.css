@@ -681,7 +681,7 @@ select {
     height: 100vh;
     width: 100%;
     margin-top: 12vh;
-
+    margin-bottom: 12vh;
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -690,11 +690,11 @@ select {
 
 .logoipsum hr {
     width: 75%;
-    border: 1px solid black;
+    border: 1px solid #e4e4e4;
 }
 
 .logoipsum-data {
-    height: 30vh;
+    height: 45vh;
     width: 75%;
     display: flex;
     align-items: start;
@@ -705,4 +705,332 @@ select {
 .logoipsum-data img {
     height: 15%;
     width: auto;
+}
+
+.logoipsum-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 2vh;
+}
+
+.logoipsum-text h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+.logoipsum-text p {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.5rem;
+}
+
+.contact {
+    height: 80vh;
+    width: 100%;
+    margin-bottom: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f6f5;
+
+    position: relative;
+}
+
+.contact h5 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.contact div {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.contact div h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    color: #000000;
+    line-height: 100%;
+    line-height: 5rem;
+}   
+
+.contact div h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000000;
+    line-height: 2rem;
+}
+
+.contact div button {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    padding: 2vmin 4vmin;
+    border-radius: 5rem;
+    cursor: pointer;
+}   
+
+
+.contact div button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+.blog {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+
+
+.insight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.insight h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.insight button {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid #000000;
+  padding: 2vmin 4vmin;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.insight button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+.blog-cards-container {
+  height: 60vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4vmin;
+  overflow: hidden;
+}
+
+.blog-card {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.insight-img-container {
+  height: 70%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.insight-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.insight-img-container img:hover {
+  transform: scale(1.1);
+}
+
+.blog-card h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+}
+
+.blog-card a {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+}
+
+
+footer {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top {
+    height: 90%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4vmin;
+}
+
+.footer-logo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 6vh;
+}
+
+.logooooo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logooooo img {
+    height: 4vh;
+    width: auto;
+}
+
+.logooooo p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.footer-logo i {
+    font-size: 1rem;
+    color: #000000;
+    cursor: pointer;
+    background-color: #f0f8ff;
+    padding: 1vmin;
+    border: none;
+    border-radius: 50%;
+}
+
+.footer-column {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2vh;
+}
+
+.footer-column h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+.footer-column hr {
+    width: 50%;
+    border: 1px solid #e4e4e4;
+}
+
+.footer-column div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4vh;
+}
+
+.footer-column div a {
+    position: relative;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-column div a::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #000000;
+
+    transform: scaleX(0);
+    transform-origin: left;
+
+    transition: transform 1s ease;
+}
+
+.footer-column div a:hover::after {
+    transform: scaleX(1);
+}
+
+.footer-pages button {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    padding: 1vmin 2vmin;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+
+.footer-pages button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.copyright {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #868686;
+}
+
+.copyright p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.copyright p span {
+    color: #000000;
+}
+
+.copyright div {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin-left: 2vw;
+}
+
+.copyright div a {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #868686;
+    text-decoration: none;
 }
